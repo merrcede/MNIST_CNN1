@@ -25,7 +25,7 @@ Install all required dependencies:
 
 # Project Structure
 The project is organized into several main components within the following directories:
-
+"""
 /my_mnist_project/
 │
 ├── api/                    # Flask API directory
@@ -44,7 +44,7 @@ The project is organized into several main components within the following direc
 ├── Makefile                # Makefile for command automation
 │
 └── README.md               # README file for project documentation
-
+"""
 # Usage
 Installing Make:
 make is a useful tool for managing and automating commands defined in the Makefile. To install make on your system, follow these instructions:
