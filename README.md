@@ -25,26 +25,7 @@ Install all required dependencies:
 
 # Project Structure
 The project is organized into several main components within the following directories:
-"""
-/my_mnist_project/
-│
-├── api/                    # Flask API directory
-│   ├── api.py              # Flask application
-│
-├── model/                  # TensorFlow model directory
-│   ├── train_model.py      # Script for training the model
-│   ├── CNN_model.h5        # Saved model file
-│
-├── streamlit_app/          # Streamlit application directory
-│   ├── app.py              # Streamlit script
-│
-├── monitoring/             # Model monitoring tools with Evidently
-│   ├── monitor.py          # Script for generating Evidently dashboards
-│
-├── Makefile                # Makefile for command automation
-│
-└── README.md               # README file for project documentation
-"""
+(https://github.com/merrcede/MNIST_CNN1/blob/main/Screenshot%202024-07-04%20110141.png)[oroject structure]
 # Usage
 Installing Make:
 make is a useful tool for managing and automating commands defined in the Makefile. To install make on your system, follow these instructions:
