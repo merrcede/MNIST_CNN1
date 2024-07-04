@@ -25,7 +25,7 @@ Install all required dependencies:
 
 # Project Structure
 The project is organized into several main components within the following directories:
-![Screenshot 2024-07-04 110141](https://github.com/merrcede/MNIST_CNN1/assets/137411913/c18a9d32-76d0-4fcf-892e-947e61daaaea)
+![Screenshot 2024-07-04 111537](https://github.com/merrcede/MNIST_CNN1/assets/137411913/41c0996d-9f82-4245-ab96-e29cc1127e01)
 
 # Usage
 Installing Make:
