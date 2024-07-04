@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from data.preprocess import get_preprocessed_data
+from model.train_model import get_preprocessed_data
 
 class TestPreprocessing(unittest.TestCase):
     def test_data_shape(self):
