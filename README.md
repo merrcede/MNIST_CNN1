@@ -25,7 +25,8 @@ Install all required dependencies:
 
 # Project Structure
 The project is organized into several main components within the following directories:
-(https://github.com/merrcede/MNIST_CNN1/blob/main/Screenshot%202024-07-04%20110141.png)[oroject structure]
+![Screenshot 2024-07-04 110141](https://github.com/merrcede/MNIST_CNN1/assets/137411913/c18a9d32-76d0-4fcf-892e-947e61daaaea)
+
 # Usage
 Installing Make:
 make is a useful tool for managing and automating commands defined in the Makefile. To install make on your system, follow these instructions:
@@ -52,6 +53,7 @@ Run the Flask API:
 `make serve`
 
 Run the Streamlit dashboard:
+
 `make dashboard`
 
 Monitor the model with Evidently:
