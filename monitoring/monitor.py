@@ -6,7 +6,7 @@ def generate_dashboard(reference_data, current_data, column_mapping):
     # Build a dashboard using Evidently
     dashboard = Dashboard(tabs=[DataDriftTab(), CatTargetDriftTab(), NumTargetDriftTab()])
     dashboard.calculate(reference_data, current_data, column_mapping)
-    dashboard.save('model_monitoring_report.html')  # ذخیره داشبورد به صورت یک فایل HTML
+    dashboard.save('model_monitoring_report.html')  # Save the dashboard as an HTML file
 
 column_mapping = {
     'target': 'target_column_name',
